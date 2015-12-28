@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+@media screen, projection
+{
+  /* #col1 becomes main column | Linke float-Spalte wird zur Inhaltsspalte */
+  #col1 { float:none; width:auto; padding:0px; margin:0;}
+  #col1_content {padding:5px;border:1px solid #DDDDDD;}
+  /* hide #col2 | Rechte Spalte abschalten */
+  #col2, #col3 , #col2_content ,#col3_content { display:none }
+
+}

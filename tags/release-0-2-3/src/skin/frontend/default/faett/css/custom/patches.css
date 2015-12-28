@@ -1,0 +1,7 @@
+@CHARSET "UTF-8";
+
+@media all
+{
+	button.button span {padding: 0 3px;}
+	.form-search button.button {margin-left:5px;}
+}

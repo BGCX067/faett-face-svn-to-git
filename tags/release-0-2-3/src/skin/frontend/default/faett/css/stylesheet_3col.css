@@ -1,0 +1,29 @@
+@charset "UTF-8";
+/** *************************************************
+File what contains links to imported styles
+*****************************************************/
+
+/* imports core styles | Basis-Stylesheets einbinden */
+@import url(yaml/core/base.css);
+
+/* ******************************************* 
+import screen layout | Screen-Layout einbinden 
+**********************************************/
+
+/* imports file what resets style settings */
+@import url(screen/reset.css);
+
+/* imports file with styles for layouts */
+@import url(screen/basemod.css);
+
+/* imports file with styles for three-column layout */
+@import url(screen/basemod_3-1-2.css);
+
+/* imports styles of the theme*/
+@import url(screen/content.css);
+
+/* imports styles for menus */
+@import url(screen/navigation.css);
+
+/* import print layout | Druck-Layout einbinden */
+@import url(yaml/print/print_003_draft.css);

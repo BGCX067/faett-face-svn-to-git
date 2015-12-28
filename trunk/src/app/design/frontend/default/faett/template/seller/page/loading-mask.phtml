@@ -1,0 +1,13 @@
+<div id="loading-mask" style="display:none">
+    <p class="loader" id="loading_mask_loader"><img src="<?php echo $this->getSkinUrl('images/faett_ajax_loader.gif') ?>" alt="<?php echo Mage::helper('seller')->__('Lade...') ?>"/><br/><?php echo Mage::helper('seller')->__('Bitte warten...') ?></p>
+</div>
+<div id="html-body"><div class="wrapper"></div></div>
+<script type="text/javascript">
+	function displayLoadingMask()
+	{
+	   var loaderArea = $$('#html-body .wrapper')[0]; // Blocks all page
+	    Position.clone($(loaderArea), $('loading-mask'), {offsetLeft:-2});
+	    toggleSelectsUnderBlock($('loading-mask'), false);
+	    Element.show('loading-mask');
+	}
+</script>

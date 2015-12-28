@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+@media screen, projection
+{
+  /* #col1 becomes main column | Linke float-Spalte wird zur Inhaltsspalte */
+  #col1 { float: left; width: 770px}
+  #col1_content {padding-right: 20px}
+  /* hide #col2 | Rechte Spalte abschalten */
+  #col2,  #col2_content { display:none }
+
+  /* #col3 moves to the right | Linken Randabstand anpassen - #col3 wird zur Randspalte */
+  #col3 { width: auto; margin: 0 0 0 770px}
+  #col3_content { padding-left: 0px; padding-right: 0px; }
+}

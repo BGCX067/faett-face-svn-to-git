@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+
+@media screen, projection
+{
+
+  /* (en) Marginal areas & page background */
+  /* (de) Randbereiche & Seitenhintergrund */
+  body {  padding: 10px 0; }
+
+  /* (en) Centering layout in old IE-versions */
+  /* (de) Zentrierung des Layouts in alten IE-versionen */
+  body { text-align: center; }
+  .page_margins { text-align:left; margin: 0 auto }
+
+  /* (en) Layout: width, background, borders */
+  /* (de) Layout: Breite, Hintergrund, Rahmen */
+  .page_margins { background: #fff;}
+  #page { width:1000px; margin:0 auto; padding:10px 0; text-align:left; }
+	
+  
+  /* Header ================================================================================ */
+  #header { height:120px; padding:10px;border:1px solid #ddd;background:url(../../images/bg_header.gif) left top repeat-x; position:relative; }
+  #header #welcome-msg { position:absolute;top:5px;left:10px;  }
+  #header .links { position:absolute;top:5px;right:15px; }
+  #header #headerLang { position:absolute;top:113px;left:5px; }
+  #header #headerSwitcher { position:absolute;top:60px;right:15px; }
+  #header .form-search { position:absolute;right:5px;top:113px; }
+  #logo { width:200px; height:63px;left:15px;position:absolute;top:30px; background-position:0 0; background-repeat:no-repeat; text-indent:-999em; overflow:hidden; cursor:pointer; } 
+
+  #topnav { color: #aaa; background: transparent; }
+
+  /* (en) adjustment of main navigation */
+  /* (de) Anpassung der Hauptnavigation */
+  #nav ul { margin-left: 20px; }
+  #nav_main { background-color: #336; }
+
+  #main { background: #fff;padding:0; z-index:1;}
+
+ 
+  /*------------------------------------------------------------------------------------------------------*/
+
+  /**
+   * (en) Formatting content container
+   * (de) Formatierung der Inhalts-Container
+   *
+
+
+  #col1 { width: 25%; }
+  #col1_content { padding: 0px; }
+
+  #col2 { width: 25%; }
+  #col2_content { padding: 0px; }
+
+  #col3 { /*margin: 0 25%; }*/
+  #col3_content { padding: 0px; }
+
+	
+  /* Footer ================================================================================ */
+  #footer { border:1px solid #ddd; padding:10px;background:url(../../images/bg_footer.gif) left bottom repeat-x; }
+  #footer p { text-align:right; }
+  #footer address { text-align:right; }
+  #footer ul { float:left; padding:0 20px 0 0; }
+  .footerLink { text-align:center;font-size:0.9em;}
+  /* ======================================================================================= */
+  
+  /* OLD */
+  
+   /* Base Columns */ 
+  .col-left { float:left; width:230px; border:1px solid #ddd; padding:5px 5px 0; }
+  .col-main { float:left; width:736px; border:1px solid #ddd; padding:5px; }
+  .col-right { float:right; width:230px; border:1px solid #ddd; padding:5px 5px 0; }
+ 
+}

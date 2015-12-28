@@ -1,0 +1,224 @@
+@CHARSET "UTF-8";
+
+/**
+ * Faett_Face Default Theme
+ *
+ * @basecolors:		gelb: #e1b61e
+ * 					lila: #c200c0
+ * @copyright  		Copyright (c) 2010 <mail@zelger.net> - ZELGER.NET GmbH
+ * @license         GPL-3.0 (http://www.gnu.de/documents/gpl-3.0.de.html),
+ * @link            http://www.techdivision.com
+ * @package         techdivision/default
+ * @author      	Johann Zelger <zelger@me.com>
+ */
+
+@media all
+{
+	/**
+	 * general page layout
+	 */
+	body {
+		background: none;
+		padding: 0;
+		font-family: "Comic Sans MS", arial, helvetica, sans-serif;
+		color: #575757;
+		
+	}
+	.page_margins {background: none;}
+	#page {padding: 0;}
+	.header-container {padding-bottom:19px; background: url("../../images/bg_highlight_1.gif") repeat-x scroll left bottom transparent;}
+	#header {background: none;border: none; height: 88px;}
+	#header .links {top:auto; position:relative; right:0; left:10px;}
+	#header #welcome-msg {top:75px;left:8px;right:auto;position:absolute;}
+	#header .form-search {position:relative;left:auto;top:auto;right:auto;float:left;padding-right:20px;}
+	#header #headerLang {top:auto;right:auto;left:auto;position:relative; float:left;}
+	.top-wrapper {top:0; right:0;}
+	#logo {top: auto; right: 7px; left: auto;width: 220px; height: 120px; text-indent: 0;}
+	#nav {background-color: #fff; border: none; border-bottom: 6px solid #dddddd;}
+	#footer {background: none; border: none; background-color: #fff; border-top: 6px solid #DDDDDD;}
+	#footer .copyright {text-align: right;}
+	#col1_content, #col2_content, #col3_content {padding: 0 12px 12px 12px; border:none;}
+	.data-table table {width: 100%;}
+	h1, h2, h3, h4, h5, h6, input, select, textarea, button {
+		font-family: "Comic Sans MS", arial, helvetica, sans-serif;
+	}
+	h2, h3 {color: #000;}
+	h2 {font-size: 200%;}
+	h4 {color: #000;}
+	h5 {color: #000;font-size:100%;}
+	p {margin:0}
+	a {color: #434343;}
+	a:focus, a:hover, a:active {color:#000;text-decoration: none;}
+	#main {
+		overflow: hidden;
+		background: url("../../images/bg_footer.gif") repeat-x scroll left bottom transparent;
+		padding-bottom: 30px;
+	}
+	.round-top {height:10px;width:100%;background-color:#fff;}
+	
+	/**
+	 * magento specific
+	 */
+	.page-title {border:none;}
+	
+	/**
+	 * navigation 
+	 */
+	#nav {margin: 0; font-size: 140%;}
+	#nav li ul {font-size:12px;}
+	#nav a {padding: 8px 20px 6px 20px;margin:0;}
+	#nav a, #nav a:hover {line-height: 1.35em;}
+	#nav ul {top: 37px;}
+	#nav li.level0 {margin-right: 1px;}
+	#nav li.level0 a {background: url('../../images/background/td_bg_head_red.gif') #fff;}
+	#nav li.level0 a.lastNav {margin: none;}
+	#nav li.level0 span {color: #fff;}
+	#nav li.level0 ul span {color: #575757;}
+	#nav li.level0 ul a {background: none repeat scroll 0 0 #F6F6F6;}
+	#nav ul li a:hover {background-color:#d4d9da;}
+	#nav ul li.last {background: none;}
+	#nav li.over a {filter: Alpha(opacity=70); opacity: 0.7; -moz-opacity: 0.7;}
+	#nav li.over ul a {filter: Alpha(opacity=100); opacity: 1; -moz-opacity: 1;}
+	#nav li.active a {background: url("../../images/bg_highlight_1.gif") repeat-x scroll left top transparent;}
+	#nav li.active span {color: #000;}
+	
+	/**
+	 * boxes 
+	 */
+	.sidebar .block .block-title h2 { color: #FFFFFF; }
+	.sidebar .block .block-title { padding: 6px 5px 0 7px;border: none none;}
+	
+	/** 
+	 * topLinks
+	 */
+	.links li {float:left; padding-left: 10px;}
+	
+	/**
+	 * breadcrumbs
+	 */
+	.breadcrumbs {padding:0;position:absolute;top:51px;left:8px;margin:0;border:none;}
+	
+	/**
+	 * products grid
+	 */
+	.products-grid td {text-align: center;}
+	
+	/**
+	 * product options
+	 */
+	.product-view .description {margin-top:10px;}
+	
+	/**
+	 * buttons
+	 */
+	button.button span {padding: 0 3px;}
+	
+	/**
+	 * form elements
+	 */
+	.form-search input#search {width:12em;}
+	#header select#select-language,
+	.form-search input#search {border: 1px solid #717171;}
+	.group-select li .input-box {width:300px;padding-right:10px;}
+	.group-select,
+	.login-page {padding:15px; margin:5px 0;}
+	.group-select select,
+	.group-select input.input-text, 
+	.group-select textarea {width:20em;}
+	#billing-new-address-form {position:relative;}
+	
+	/**
+	 * product view
+	 */
+	.product-view .short-description {margin: 15px 0;}
+	.product-view .description {margin: 0;}
+	.product-collateral {padding:15px; margin:5px 0;border:1px solid #dddddd;}
+	
+	/**
+	 * checkout
+	 */
+	.one-page-checkout {margin:0;}
+	.one-page-checkout .active .step-title h3 {color: #fff;}
+	.one-page-checkout .active .step-title {background: url('../../images/background/td_bg_head_red.gif') #b0232c;}
+	.table-checkout-login {width:100%;position:relative;}
+	.table-checkout-login td {padding:10px;}
+	
+	/**
+	 * layered
+	 */
+	.block-layered-nav li {display:block;}
+	
+	/**
+	 * messages
+	 */
+	.messages {
+		background: url("../../images/background/message_left.png") no-repeat scroll 0 0 transparent !important;
+		height: 70px !important;
+		min-height: 70px !important;
+	}
+	.messages li ul {
+		background: url("../../images/background/message_right.png") no-repeat scroll top right transparent !important;
+		height: 40px !important;
+		min-height: 40px !important;
+	}
+	.messages li ul li {
+		padding-top: 3px;
+		line-height: 0.8em;
+		padding: 5px 28px 0 0;
+	}
+	.error-msg, .success-msg, .note-msg, .notice-msg {
+		border: none !important;
+		font: auto !important;
+		padding: 0 !important;
+		margin: 0 0 0 70px !important;
+		color: #434343 !important;
+		font-size: 100% !important;
+		background: url("../../images/background/message_middle.png") repeat-x scroll 0 0 transparent !important;
+		height: 40px !important;
+		min-height: 40px !important;
+	}
+	/**
+	 * rounded corners all edges
+	 */
+	.pager, .sorter, .product-collateral{
+		-moz-border-radius:1ex;
+  		-webkit-border-radius:1ex;
+	}
+	
+	/**
+	 * rounded corners top edges
+	 */
+	.round-top, .block-title {
+		-moz-border-radius-topleft:1ex;
+  		-moz-border-radius-topright:1ex;
+  		-webkit-border-top-left-radius:1ex;
+  		-webkit-border-top-right-radius:1ex;
+	}
+
+	/**
+	 * rounded corners bottom edges
+	 */
+	.block-content {
+		-moz-border-radius-bottomleft:1ex;
+  		-moz-border-radius-bottomright:1ex;
+  		-webkit-border-bottom-left-radius:1ex;
+  		-webkit-border-bottom-right-radius:1ex;
+	}
+	
+	/**
+	 * rounded corners top left edge
+	 */
+	.firstNav {
+		-moz-border-radius-topleft:1ex;
+		-webkit-border-top-left-radius:1ex;
+	}
+	
+	/**
+	 * rounded corners top right edge
+	 */
+	.lastNav {
+		-moz-border-radius-topright:1ex;
+		-webkit-border-top-right-radius:1ex;
+	}
+}
+

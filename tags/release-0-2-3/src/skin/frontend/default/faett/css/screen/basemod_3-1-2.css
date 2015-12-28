@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+
+@media screen, projection
+{
+	/* #col1 becomes the middle column | #col1 wird zur mittleren Spalte */
+	#col1 { float: right; width: 540px;  margin: 0 230px 0 -770px }
+	#col1_content {padding-left: 10px; padding-right: 10px}
+	
+	/* #col2 becomes the left colum |#col2 wird zur linken Spalte */
+	#col2 { float: right; width: 230px;  margin: 0 }
+	
+	/* #col3 becomes the right column | #col3 wird zur rechten Spalte */
+	#col3 { float: left; width: 230px; margin-right: -5px; margin-left: 0; }
+}
